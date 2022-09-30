@@ -4,7 +4,7 @@
 
 <div align="center">
   <h3>
-    convertCsvInJson
+    convertCsvToJson
   </h3>
 
   <p>
@@ -50,7 +50,7 @@ Converter arquivos CSV para JSON.
 
 ```bash
 # git clone REPOSITÓRIO_PROJETO && cd/NOME_PROJETO
-$ git clone https://github.com/Gabriel-souzaa/convertCsvInJson.git && cd convertCsvInJson
+$ git clone https://github.com/Gabriel-souzaa/convertCsvToJson.git && cd convertCsvToJson
 ```
 
 **Siga os passos**
@@ -62,5 +62,5 @@ $ yarn
 # inicie o projeto como dev
 $ yarn dev
 
-# Se todos os passos foram seguidos corretamente, a api deve estar iniciada
+# Se todos os passos foram seguidos corretamente a api deve ser iniciada
 ```

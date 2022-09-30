@@ -1,1 +1,3 @@
-export interface IStream { }
+export interface IStream {
+  buffer: Buffer | undefined;
+}

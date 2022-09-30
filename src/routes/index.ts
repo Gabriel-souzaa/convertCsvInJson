@@ -1,6 +1,11 @@
 import { Router } from "express";
 import { ConvertController } from "../controllers";
+import { MulterMiddleware } from "../middlewares";
 
+/**
+ * Middlewares
+*/
+const multerMiddlawares = new MulterMiddleware().config();
 
 /**
  * Controllers
@@ -12,4 +17,6 @@ const convertController = new ConvertController();
 */
 const routes = Router();
 
-routes.post('/convert', convertController.get);
+routes.post('/convert', multerMiddlawares, convertController.convertCsvToJson);
+
+export { routes };
